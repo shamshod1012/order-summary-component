@@ -1,0 +1,144 @@
+/* poppins font style */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "poppins", sans-serif;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #d6e1ff;
+}
+.wrapper {
+  width: 450px;
+  height: 647px;
+  border-radius: 20px;
+  /* border: 1px solid red; */
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+.main {
+  display: flex;
+  text-align: center;
+  width: 450px;
+  justify-content: center;
+  height: 447px;
+  border-radius: 0 0 20px 20px;
+
+  background-color: #ffffff;
+}
+.header {
+  width: 450px;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+
+  background-color: #382ae1;
+  position: relative;
+}
+
+.towns-2 {
+  left: -70px;
+}
+.towns-1 {
+  width: 83px;
+  height: 60px;
+  top: 0px;
+  left: 30px;
+}
+.header img {
+  width: 450px;
+  height: 200px;
+  position: absolute;
+}
+.main-text {
+  width: 350px;
+  height: 78px;
+  color: #717fa6;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.title {
+  color: #1f2e55;
+
+  position: relative;
+  padding: 14px;
+  font-size: 26px;
+}
+.price-music {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #f9edfd;
+  height: 80px;
+  margin-top: 30px;
+  position: relative;
+}
+.name {
+  font-weight: 900;
+}
+.info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.circle {
+  margin-left: 10px;
+  width: 48px;
+  background-color: #dfe6fb;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+.charge:hover {
+  border-bottom: none;
+  color: #766cf1;
+}
+.charge {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+.buy:hover {
+  background-color: #766cf1;
+}
+.buy {
+  cursor: pointer;
+  width: 340px;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  font-weight: 800;
+  margin-top: 50px;
+  background-color: #382ae1;
+  color: #fff;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.cancel:hover {
+  color: #1f2e55;
+}
+.cancel {
+  cursor: pointer;
+  background: none;
+  font-weight: 900;
+  font-size: 16px;
+  border: none;
+  color: #717fa6;
+  margin-top: 30px;
+}
